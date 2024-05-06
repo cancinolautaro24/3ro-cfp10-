@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Menu del restaurante "Los Campeones"</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Plato</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pizza mozzarella</td>
+                <td>Pizza grande de mozzarella con extra queso</td>
+                <td>11000</td>
+            </tr>
+            <tr>
+                <td>Pizza Fugazzetta</td>
+                <td>masa de pizza con cebolla y queso arriba</td>
+                <td>14000</td>
+            </tr>
+            <tr>
+                <td>Milanesa Napolitana</td>
+                <td>Milanesa de pollo con salsa y queso arriba</td>
+                <td>9500</td>
+            </tr>
+            <tr>
+                <td>Empanada de carne</td>
+                <td>Empanada con huevo duro picado,cebolla,carne,condimento</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Conos de papas</td>
+                <td>Cono de papas fritas condimentadas</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulario de Reserva</h2>
+
+    <form action="#">
+     <label for="#">Nombre:</label>
+     <input type="text" id="Nombre" name="Nombre" required>
+
+     <label for="">Telefono:</label>
+     <input type="tel" id="Telefono" name="Telefono" required>
+
+     <label for="#">Cantidad de personas:</label>
+     <input type="number" id="Personas" name="Personas" required>
+ 
+     <label for="#">Fecha:</label>
+     <input type="date" id="Fecha" name="Fecha" required>
+
+     <label for="#">Hora:</label>
+     <input type="time" id="Hora" name="Hora" required>
+
+     <br>
+
+     <label for="comentarios">Comentarios (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar Reserva</button>
+
+
+    </form>
+</body>
+</html>
