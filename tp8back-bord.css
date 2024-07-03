@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1,h2 {
+    color: #333;
+}
+.tarea {
+    margin: 20px 0;
+    padding: 20px;
+}
+.tarea1 {
+    background-color: #e5ff00; 
+}
+.tarea2 {
+    background-image: url(practica1/img/lg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    color: #fff;
+}
+.tarea3 {
+    border-top: 4px solid rgb(255, 0, 217);
+    border-right: 4px dotted rgb(3, 255, 3);
+    border-bottom: 4px double blue;
+    border-left: 4px dashed rgb(255, 0, 0);
+}
+.tarea4 {
+    border: 2px solid #1e00ff;
+    border-radius: 20px;
+}
