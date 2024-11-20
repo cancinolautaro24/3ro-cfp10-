@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav main"
+        "footer footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    grid-area: header;
+    background-color: #b62d2d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header .titulo-principal{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header .buscador {
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Nav */
+.navegacion {
+    grid-area: nav;
+    background-color: #f9bebe;
+    padding: 1rem;
+}
+
+.nav-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-lista li {
+    margin: 0.5rem 0;
+}
+
+.nav-lista li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.nav-lista li a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+.main {
+    background-color: #f57575;
+    grid-area: main;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+/* Section */
+.section {
+    background-color: #ffffff;
+    border: 2px solid #b62d2d;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color:#b62d2d;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.ventas{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ventas li{
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+.footer {
+    grid-area: footer;
+    background-color: #969696;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-top: 4px solid #ff6f61;
+}
+
+.footer p {
+    margin: 0;
+}
